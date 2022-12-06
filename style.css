@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,'BlinkMacSystemFont';
+}
+
+@font-face {
+    font-family: rickAndMortyFont;
+    src: url(/rick-and-morty-font/get-schwifty.ttf);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#000000  ;
+}
+
+.title{
+    color: #ffffff;
+    margin: 10px;
+    font-size: 80px;
+    font-family: rickAndMortyFont;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Buscador{
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-color: #ffffff;   
+    width: 500px;
+    border-radius: 15px;
+    border: transparent;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    margin: 15px;
+}
+
+.h1-img{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20rem;
+    width: 100%;
+}
+
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    padding-bottom: 100px;
+}
+
+.container-personajes{
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.image-container{
+    display: flex;
+}
+.image-container img{
+    width: 50%;
+}
+
+article{
+    padding: 10px;
+    flex-direction:column;
+    text-align: center;
+    color: #ffffff ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 34px;
+
+}
+
+p{
+    background: #a4fdf1;
+    font-weight: bold;
+    padding: 30px;
+    border-left:8px solid rgb(243, 132, 132);
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    border-radius: 55px;
+    padding-left: 620px;
+}
